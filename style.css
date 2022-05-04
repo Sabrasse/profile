@@ -1,0 +1,152 @@
+body {
+  background-color:#F1FAEE ;
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.1;
+  color: #A8DADC;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.banner {
+  background-color: #1D3557;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  box-shadow: 5px 5px 5px #0B1624;
+}
+
+#profile {
+  border-radius: 50%;
+  width: 200;
+}
+
+.button_coffee {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #E63946;
+  padding: 10px;
+  display: inline-block;
+  border: #0B1624;
+  border-radius: 5px;
+}
+
+.button_coffee:hover {
+  background-color: #A12933;
+  text-decoration: underline;
+  box-shadow: 4px 4px 4px #842028;
+}
+
+.card {
+  padding-left: 20px;
+  padding-top: 5px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #457B9D;
+  padding-bottom: 5px;
+  box-shadow: 5px 5px 5px #3A647F;
+}
+
+.footer {
+  padding-top: 5px;
+  margin-top: 20px;
+  text-align: left;
+  background-color: #1D3557;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  box-shadow: 5px 5px 5px #0B1624;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card li {
+  display: inline-block;
+}
+
+.icon {
+  color : white;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.icon:hover {
+  color: #0B1624;
+}
+
+.icon:hover + .hide{
+  display: block;
+  color: white;
+}
+
+.social_icon {
+  display: inline-block;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.social_icon:hover {
+  color: #0B1624;
+}
+
+ul {
+  inline-size: 1.2;
+  list-style: none;
+}
+
+.text_center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .container {
+    width: 180px;
+  }
+}
